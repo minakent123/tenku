@@ -1,6 +1,6 @@
 #pragma once
 
-class Tenku
+class Tenku final
 {
 public:
     Tenku();
