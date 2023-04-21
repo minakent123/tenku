@@ -2,7 +2,7 @@
 
 int main(int arc, char** argv)
 {
-    Tenku tenku;
+    tenku::Tenku tenku;
     if (tenku.Initialize()) {
         tenku.Run();
     }
