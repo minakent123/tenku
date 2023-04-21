@@ -2,6 +2,8 @@
 
 #include "SDL2/SDL.h"
 
+namespace tenku {
+
 Tenku::Tenku()
 {}
 
@@ -21,3 +23,5 @@ void Tenku::Finalize()
 
 void Tenku::Run()
 {}
+
+}  // namespace tenku
