@@ -5,6 +5,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 include(CMakeHelpers)
 include(SDL)
 
+set(CMAKE_CXX_STANDARD 20)
 set_common_variables()
 
 set(TARGET tenku)
